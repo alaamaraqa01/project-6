@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countries</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="first" class="header-text">
+            <h1 style="font-size: 55px;" class="World-text">World Countries Data</h1>
+            <h4 class="small-text">Currently, we have 250 countries</h4>
+            <h4 id="hidden-text"></h4>
+        </form>
+        <div id="second">
+            <input id="search" class="search-input" type="search"
+                placeholder="Search countries by name, city, and languages">
+            <div id="buttons">
+                <button onclick="sortByName()" id="name">sort by Name</button>
+                <button onclick="sortByCapital()" id="Capital">sort by Capital</button>
+                <button onclick="SortByPopulation()" id="Population">sort by Population</button>
+                <button onclick="srollToDown()" id="down"><i id="scroll" class='bx bx-bar-chart-alt'></i>
+                </button>
+            </div>
+        </div>
+        <div id="last">
+            <div id="countries-list">
+            </div>
+            <div id="world-population">
+                <ul></ul>
+            </div>
+            <div id="world-pop"></div>
+            
+        </div>
+        <div class="buttons-container">
+            <button onclick="showPopulation()" id="population">POPULATION</button>
+            <button onclick="ShowLanguages()" id="languages">LANGUAGES</button>
+        </div>
+        <h2>World Population</h2>
+        <div id="results">
+            <div id="result1"></div>
+            <div id="result2"></div>
+            <ul id=""></ul>
+            <div id="result3"></div>
+            <div id="result4">
+                <div id="result4.1"></div>
+                <div id="result4.2"></div>
+                <div id="result4.3"></div>
+                <div id="result4.4"></div>
+                <div id="result4.5"></div>
+                <div id="result4.6"></div>
+                <div id="result4.7"></div>
+                <div id="result4.8"></div>
+                <div id="result4.9"></div>
+                <div id="result4.10"></div>
+            </div>
+            <div id="result5"></div>
+            <ul></ul>
+            <div id="result6"></div>
+            <ul></ul>
+        </div>
+        <button id="up">
+            <i class='bx bxs-hand-up'></i>
+        </button>
+
+    </div>
+
+    <script src="index.js" type="module"></script>
+
+</body>
+
+</html>

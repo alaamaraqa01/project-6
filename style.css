@@ -1,0 +1,288 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+    background-color: #dfdfdf;
+}
+.World-text{
+    color: orange;
+}
+.small-text{
+    display: flex;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#search{
+    width: 60%;
+    display: flex;
+    height: 50px;
+}
+#hidden-text{
+    margin-top: 0px;
+}
+#buttons{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    color: orange;
+
+}
+#name{
+    background-color: orange;
+    border: none;
+    width: 100px;
+}
+#Capital{
+    background-color: orange;
+    border: none;
+    width: 100px;
+}
+#Population{
+    background-color: orange;
+    border: none;
+    width: 120px;
+}
+#sorting{
+    display: flex;
+    justify-content: center;
+}
+#countries-list{
+    display: flex;
+    text-wrap: nowrap;
+    flex-flow: wrap;
+    background-color: #e6e2e2;
+}
+.country{
+    background-color: #f2f9ff;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 22px;
+    align-content: center;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+}
+#CAPITAL{
+    margin-left: 15px;
+}
+#LANGUAGES{
+    margin-left: 15px;
+}
+#POPULATIONS{
+    margin-left: 15px;
+}
+.buttons-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#numbers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1000px;
+    font-size: large;
+    margin: -2.8rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    
+}
+ #population, #languages {
+        font-size: 15px;
+        width: 150px;
+        height: 40px;
+        background-color: orange;
+        border: none;
+        margin: 0 10px; 
+    }
+#result2{
+    list-style: none;
+    margin-top: 36px;
+    line-height: 3;
+width: 60px;
+display: block;
+margin-left: 10px;
+
+}
+#result4{
+    list-style: none;
+        margin-left: 100px;
+
+}
+#result5{
+    list-style: none;
+    line-height: 3;
+    margin-top: 37px;
+    margin-right: 20px;
+}
+li{
+    width: 4px;
+}
+#results{
+    display: flex;
+    align-self: center;
+    width: 50%;
+    background-color: #e6e2e2;
+}
+#result6{
+    list-style: none;
+    line-height: 3;
+    margin-top: 37px;
+    margin-right: 10px;
+}
+#name:hover{
+    background-color: rgb(74, 109, 196);
+}
+#Capital:hover{
+    background-color: rgb(74, 109, 196);
+
+}
+#Population:hover{
+    background-color: rgb(74, 109, 196);
+
+
+}
+#up{
+    font-size: 50px;
+    color: orange;
+    display: flex;
+    justify-content: end;
+    border: none;
+    background-color: white;
+
+
+}
+#down{
+        border: none;
+        background-color: white;
+        font-size: 40px;
+        color: orange;
+        
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    .country{
+        width: 300px;
+    }
+#LANGUAGES{
+    text-wrap: wrap;
+}
+#world-population{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+#search-name{
+    background-color: orange;
+    border: none;
+}
+#search-capital{
+    background-color: orange;
+    border: none;
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .country{
+        width: 330px;
+    }
+ }
+ @media (min-width: 820px) and (max-width: 990px) { 
+.country{
+    width: 400px;
+} 
+}
+@media (min-width: 822px) and (max-width: 858px) { 
+.country{
+ width: 366px;
+}
+}
+@media (min-width: 320px) and (max-width: 658px) { 
+#countries-list{
+    justify-content: center;
+}
+#first{
+    justify-content: center;
+}
+}
+@media (min-width: 1125px) and (max-width: 1244px) { 
+#countries-list{
+   gap: 65px;
+}
+#buttons{
+    height: 60px;
+}
+}
+#search-name:hover{
+    background-color:  rgb(74, 109, 196);
+}
+#search-capital:hover{
+    background-color:  rgb(74, 109, 196);
+}
+
+#lastBar{
+    width: 50%;
+    display: flex;
+    color: orange;
+    background: orange;
+    height: 22px;
+}
+#worldDiv{
+    width: 85%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 350px;
+    font-weight:bold;
+}
+#items{
+    display: flex;
+    justify-content: space-around;
+    gap: 6px;
+    margin-right: 239px;
+    gap: 10px;
+}
+#BARS{
+    border: 10px solid;
+    background-color: orange;
+    color: orange;
+    display: flex;
+    height: 10px;
+margin-left: 20px;
+}
+li{
+    width: -10px;
+}
+#NAMES{
+       display: flex;
+    margin-inline-start: auto;
+    font-weight: bold;
+    margin-left: 340px;
+    margin-top: 10px;
+    width: 174px;
+}
+
+#NUMBERS{
+    display: flex;
+    margin-inline-start: auto;
+    margin-right: 107px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
